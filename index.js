@@ -4,6 +4,6 @@ function maybeTrue() {
 
 function tailsNeverFalls() {
   while (maybeTrue()) {
-
+    
   }
 }

@@ -3,7 +3,9 @@ function maybeTrue() {
 }
 
 function tailsNeverFalls() {
+  let tails = 0;
   while (maybeTrue()) {
-    
+    ++tails;
   }
+  return `You got $('tails') tails in a row `);
 }

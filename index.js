@@ -7,5 +7,5 @@ function tailsNeverFails() {
   while (maybeTrue()) {
     ++tails;
   }
-  return `You got ${tails} tails in a row `);
+  return `You got ${tails} tails in a row `;
 }
